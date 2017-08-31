@@ -5,15 +5,12 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-
-var article-one:  ={
-    title:'article-one i abhijeetsriram ',
-    heading:'Article one',
-    date:'August 6, 2017',
-    content:
-       <p>
-           This should be my first article whose content is displayed here. This should be my first article whose content is displayed here.
-       
+var articleone = {
+title:'article-one i abhijeetsriram'
+heading:'Article one'
+date:'August 6,2017'
+content:` This should be my first article whose content is displayed here. This should be my first article whose content is displayed here.
+       </div>
        <p>
           This should be my first article whose content is displayed here.This should be my first article whose content is displayed here.This should be my first article
            whose content is displayed here. This should be my first article whose content is displayed here.
@@ -21,7 +18,7 @@ var article-one:  ={
        <p>
            This should be my first article whose content is displayed here.This should be my first article whose content is displayed here.This should be my first article
            whose content is displayed here.
-       </p>'
+       </p>'`
 };
 
 
