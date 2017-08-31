@@ -3,7 +3,9 @@ var morgan = require('morgan');
 var path = require('path');
 
 var app = express();
-app.use(morgan('combined'));
+app.use(morgan('combined'))
+};
+
 
 var articleone = {
 title:'article-one i abhijeetsriram'
